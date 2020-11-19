@@ -29,7 +29,7 @@ text-indent:-9999%;/*들여쓰기*/
 display:block;
 height:80px;
 background:url(./img/ddk.png) no-repeat;/*배경이미지 기본이 반복 repeat*/
-background-size:90%;
+background-size:100%;
 background-position:0px center;/*배경위치는 center(가로) center(세로)*/
 }
 .header .menu-toggle-btn {/*토글:똑딱이버튼*/
@@ -79,8 +79,12 @@ color:#fff;
 /* 자바스크립트 시작 */
 //네이티브(오리지널-옛날부터)자바스크립트로 햄버거 메뉴액션 구현(아래) 
 //document.getElementById("css 아이디영역");
-var toggle_menu = document.getElementByClassName("menu-toggle-btn")
-
+//함수의 기본형은 아래와 같습니다.
+function add(a, b) {//a,b 받아서 매개변수=인자=파라미터
+	var sum = a+b;
+	alert(a + "더하기" + b + "는" + sum + "입니다.");
+}
+add(3,5);//함수 실행하기
 /* 자바스크립트 끝 */ 
 </script>
 </head>
