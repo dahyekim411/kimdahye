@@ -16,8 +16,15 @@
 /*태블릿용 스타일 시작*/
 @media all and (min-width:768px) {
 /*we are영역 시작*/
-.weare-section h1 {
-
+.float-clear {clear:both;}/*clear속성은 float작동을 없애는 역할*/
+.weare-body li {
+float:left;/*세로정렬을 가로정렬로*/
+width:23.046875%;/*(177/768)x100 = 몇% */
+margin-left:2.604166%;/*(20/768)x100= 몇%*/
+overflow:hidden;/*반응형li박스에서 가로크기를 벗어나는 이미지내용은 숨김처리*/
+}
+.weare-body li:first-child {
+margin-left:0px;
 }
 /*we are영역 끝*/
 }
@@ -101,7 +108,7 @@
 </section>
 </section>
 
-<footer class="footer">
+<footer class="footer float-clear">
 <div class="slider">
 </div>
 <!-- 하단 로고 영역 시작 -->
