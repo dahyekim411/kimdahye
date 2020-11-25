@@ -27,5 +27,20 @@ color:#3f51b5;
 /*슬라이드영역시작*/
 .carousel-item, .carousel-item img {height:500px;}
 /*슬라이드영역끝*/
+
+/*we are영역 시작*/
+.float-clear {clear:both;}/*clear속성은 float작동을 없애는 역할*/
+.weare-body li {
+float:left;/*세로정렬을 가로정렬로*/
+width:23.046875%;/*(177/768)x100 = 몇% */
+margin-left:2.604166%;/*(20/768)x100= 몇%*/
+overflow:hidden;/*반응형li박스에서 가로크기를 벗어나는 이미지내용은 숨김처리*/
+}
+.weare-body li img {width:100%; height:auto;}
+.weare-body {margin:10px 3%;}/*가운데 정렬*/
+.weare-body li:first-child {
+margin-left:0px;
+}
+/*we are영역 끝*/
 	
 }	
