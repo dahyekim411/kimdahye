@@ -42,5 +42,55 @@ overflow:hidden;/*반응형li박스에서 가로크기를 벗어나는 이미지
 margin-left:0px;
 }
 /*we are영역 끝*/
+
+/*work영역 시작*/
+.work-section li {
+float:left;/*세로배치를 가로배치로 변경*/
+width:50%;
+}
+/*work영역 끝*/
+
+/*blog영역 시작*/
+.blog-section li {
+float:left;/*세로배치가 3개 가로배치로 변함*/
+width:31.59722222222%; /*3개중 1개의가로크기 (242px/768px)*100 = 31.59722222222% */
+margin-left:2.60416666666%; /*1개여백구하기 (20px/768px)*100= 2.60416666666% */
+height:300px;
+border:1px solid #ccc;
+}
+.blog-section li .preview {
+height:200px;
+overflow:hidden;
+/*max-height:200px;*/
+/*min-height:200px;*/	
+}
+.blog-section li .info2 {
+padding:10px;	
+}
+.blog-section li:first-child {/*마지막 li가 아래로 떨어지는 것을 방지역할*/
+margin-left:0px;
+}
+.blog-section li:nth-child(3n+1) {
+/* 1,4,7,10,13...위치에 해당되는 것만 적용 
+n번째 인덱스값이기 때문에 0부터 시작합니다. 3n-2 = 3x0-2 = -2 결과가 이상함. 3n+1=3x0+1=1
+*/
+/*디버그용코드 border:1px solid red;*/
+margin-left:0px;
+}
+.blog-section hr {display:none;}
+/*blog영역 끝*/
+
+/*contact영역 시작*/
+.input-class, .textarea-class {
+float:left;/*세로배치를 가로배치로 변경*/
+width:49%;/*2개로나누는 가로크기를 47% 지정*/
+}
+.input-class {
+margin-right:2%;
+}
+.contact-section form textarea {
+min-height: 120px;
+}
+/*contact영역 끝*/
 	
 }	
