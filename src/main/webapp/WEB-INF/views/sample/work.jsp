@@ -8,73 +8,73 @@
 <li><!-- 아래 a링크의 title속성은 시각장애인을 위한 웹접근성을 위한 코딩입니다 -->
 <a href="javascript:;">
 <div class="info">
-<h2>갤러리제목1</h2>
-<p>갤러리게시물1번의 내용입니다. 여러분 환영...</p>
+<h2>디저트1</h2>
+<p>카페의 디저트1번입니다. 여러분 환영...</p>
 </div>
-<img src="/resources/sample/img/133.jpg" alt="갤러리게시판2이미지1">
+<img src="/resources/sample/img/130.jpg" alt="무화과요거트케이크">
 </a>
 </li>
 <li>
 <a href="javascript:;">
 <div class="info">
-<h2>갤러리제목2</h2>
-<p>갤러리게시물2번의 내용입니다. 여러분 환영...</p>
+<h2>디저트2</h2>
+<p>카페의 디저트2번입니다. 여러분 환영...</p>
 </div>
-<img src="/resources/sample/img/133.jpg" alt="갤러리게시판2이미지2">
+<img src="/resources/sample/img/132.jpg" alt="데빌스치즈케이크">
 </a>
 </li>
 <li>
 <a href="javascript:;">
 <div class="info">
-<h2>갤러리제목3</h2>
-<p>갤러리게시물3번의 내용입니다. 여러분 환영...</p>
+<h2>드링크1</h2>
+<p>카페의 드링크1번입니다. 여러분 환영...</p>
 </div>
-<img src="/resources/sample/img/133.jpg" alt="갤러리게시판2이미지3">
+<img src="/resources/sample/img/134.jpg" alt="수제매실에이드">
 </a>
 </li>
 <li>
 <a href="javascript:;">
 <div class="info">
-<h2>갤러리제목4</h2>
-<p>갤러리게시물4번의 내용입니다. 여러분 환영...</p>
+<h2>디저트2/h2>
+<p>카페의 디저트2번입니다. 여러분 환영...</p>
 </div>
-<img src="/resources/sample/img/133.jpg" alt="갤러리게시판2이미지4">
+<img src="/resources/sample/img/131.jpg" alt="데빌스치즈케이크">
 </a>
 </li>
 <li>
 <a href="javascript:;">
 <div class="info">
-<h2>갤러리제목5</h2>
-<p>갤러리게시물5번의 내용입니다. 여러분 환영...</p>
+<h2>디저트1</h2>
+<p>카페의 디저트1번입니다. 여러분 환영...</p>
 </div>
-<img src="/resources/sample/img/133.jpg" alt="갤러리게시판2이미지5">
+<img src="/resources/sample/img/130.jpg" alt="무화과요거트케이크">
 </a>
 </li>
 <li>
 <a href="javascript:;">
 <div class="info">
-<h2>갤러리제목6</h2>
-<p>갤러리게시물6번의 내용입니다. 여러분 환영...</p>
+<h2>세트1</h2>
+<p>카페의 세트1번입니다. 여러분 환영...</p>
 </div>
-<img src="/resources/sample/img/133.jpg" alt="갤러리게시판2이미지6">
+<img src="/resources/sample/img/133.jpg" alt="멋진날세트1번">
 </a>
 </li>
 <li>
 <a href="javascript:;">
 <div class="info">
-<h2>갤러리제목7</h2>
-<p>갤러리게시물7번의 내용입니다. 여러분 환영...</p>
+<h2>디저트2</h2>
+<p>카페의 디저트2번입니다. 여러분 환영...</p>
 </div>
-<img src="/resources/sample/img/133.jpg" alt="갤러리게시판2이미지7">
+<img src="/resources/sample/img/132.jpg" alt="데빌스치즈케이크">
 </a>
 </li>
 <li>
 <a href="javascript:;">
 <div class="info">
-<h2>갤러리제목8</h2>
-<p>갤러리게시물8번의 내용입니다. 여러분 환영...</p>
+<h2>드링크1</h2>
+<p>카페의 드링크1번입니다. 여러분 환영...</p>
 </div>
-<img src="/resources/sample/img/133.jpg" alt="갤러리게시판2이미지8">
+<img src="/resources/sample/img/134.jpg" alt="수제매실에이드">
 </a>
 </li>
 </ul>

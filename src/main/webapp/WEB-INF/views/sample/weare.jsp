@@ -9,8 +9,8 @@
 <section class="weare-header">
 <h1 class="section-title">WE ARE</h1>
 <p>
-"휴면 교육센터 디지털 컨버전스 과정 입니다."<br><!-- break중지 return엔터  줄바꿈태그-->
-"그리고, 지금은 화면 설계 시간 입니다."
+맛있는 공간<br><!-- break중지 return엔터  줄바꿈태그-->
+"언제나 멋진 날"입니다.
 </p>
 </section>
 <!-- 겔러리게시판에서 가져오는 데이터 4개 반복영역(아래) -->
@@ -18,30 +18,30 @@
 <ul>
 <li>
 <a href="javascript:;"><!-- a링크태그의 가상링크# 대신에 javascript:; 입니다. -->
-<img src="/resources/sample/img/132.jpg" alt="겔러리게시물1">
-<h2>겔러리제목1</h2>
-<p>겔러리게시물 1번의 내용 입니다. 여러분 환영합...</p>
+<img src="/resources/sample/img/130.jpg" alt="디저트1">
+<h2>무화과요거트케잌</h2>
+<p>무화과생과와 건조무화과를 사용하여...</p>
 </a>
 </li>
 <li>
 <a href="javascript:;">
-<img src="/resources/sample/img/132.jpg" alt="겔러리게시물2">
-<h2>겔러리제목2</h2>
-<p>겔러리게시물 2번의 내용 입니다. 여러분 환영합...</p>
+<img src="/resources/sample/img/132.jpg" alt="디저트2">
+<h2>데빌스치즈케이크</h2>
+<p>초코와 카라멜 크림치즈를 사용하여...</p>
 </a>
 </li>
 <li>
 <a href="javascript:;">
-<img src="/resources/sample/img/132.jpg" alt="겔러리게시물3">
-<h2>겔러리제목3</h2>
-<p>겔러리게시물 3번의 내용 입니다. 여러분 환영합...</p>
+<img src="/resources/sample/img/134.jpg" alt="드링크1">
+<h2>수제매실에이드</h2>
+<p>수제매실청에 각종 베리류를 더하여...</p>
 </a>
 </li>
 <li>
 <a href="javascript:;">
-<img src="/resources/sample/img/132.jpg" alt="겔러리게시물4">
-<h2>겔러리제목4</h2>
-<p>겔러리게시물 4번의 내용 입니다. 여러분 환영합...</p>
+<img src="/resources/sample/img/133.jpg" alt="세트1">
+<h2>'멋진 날'세트</h2>
+<p>언제나 멋진 날의 시그니처들을 모아...</p>
 </a>
 </li>
 </ul>
