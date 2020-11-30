@@ -1,13 +1,22 @@
 @charset "UTF-8";
 /* 모바일용 스타일지정 시작 */
-body {font-size:14px;}
-/*헤더영역 시작*/
+body {/*부트스트랩css또는 reset.css에서 초기화 된것을 재 정의 할때*/
+font-size:14px;
+background:#fff;
+line-height:1.4 !important;/*상속 바로전에 적용한 값을 초기화inherit, initial 시키는 역할*/
+font-family:'Malgun Gothic',dotum, sans-serif !important;
+}/*부트스트랩css영향을 받은것을 무효화시키고, 사용자css로 적용*/
+/*부트스트랩css영향을 받는 부분을 무효화 시키기(아래)*/
+ul {
+	margin-bottom: inherit !important;/*css위치와 상관없이 무조건,중요하게 적용가능*/
+}
+/* 헤더영역 시작 */
 .header {
 height:80px;
 position:relative;/*상대적인 위치 다른예는 absolute절대적인위치=fixed붙박이*/
-padding:0px 2% ;/*안쪽여백: 바깥쪽여백은 margin입니다. 18px(상하여백) 5%(좌우여백)*/
-/*padding:18px 5% 18px 5% 시계방향으로 진행 시작 위쪽부터 시작의 약자 위로 표시됩니다.
-만약 padding:18px 5% 18px; 3가지는 모두 동일. 18px(상여백) 5%(좌우여백) 18px(하여백) 
+padding:0px 2%;/*안쪽여백: 바깥쪽여백은 margin입니다. 18px(상하여백) 5%(좌우여백)*/
+/*padding:18px 5% 18px 5%; 시계방향으로진행 시작 위쪽부터 시작 의 약자 위로 표시됩니다.
+만약 padding:18px 5% 18px; 3가지 모두 동일. 18px(상여백) 5%(좌우여백) 18px(하여백)
 */
 }
 .header .logo {
