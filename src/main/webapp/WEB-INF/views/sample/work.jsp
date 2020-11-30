@@ -35,7 +35,7 @@
 <li>
 <a href="javascript:;">
 <div class="info">
-<h2>디저트2/h2>
+<h2>디저트2</h2>
 <p>카페의 디저트2번입니다. 여러분 환영...</p>
 </div>
 <img src="/resources/sample/img/131.jpg" alt="데빌스치즈케이크">
