@@ -1,7 +1,4 @@
 package kr.or.test;
-
-import kr.or.test.Step2.MemberService;
-
 /**
  * 클래스자료형
  * @author 김다혜
@@ -39,7 +36,15 @@ class MemberVO {
 }
 
 class MemberService {//이 서비스 클래스에서는 회원출력에 관련된 메서드를 모아 놓습니다.(아래)
-	
+	public void printMember(MemberVO[] members) {
+		//서비스 구현메서드 내용(아레) 향상된 for반복문 사용
+		int cnt=0;
+		for(MemberVO member:members) {//members여러 레코드중 1개의 레코드를 member오브젝트객체로 대입
+			cnt = cnt + 1;
+			System.out.println(cnt + "번째 레코드는" + member.toString());
+		}
+		
+	}
 }
 
 public class Step2 {
@@ -66,6 +71,7 @@ public class Step2 {
 		members[2] = memberVO3;
 		//전에 사용했던 출력보다는 개선된 방식으로 출력(아래) MemberService 서비스전용 클래스
 		MemberService memberService = new MemberService();//자바 오브젝트객체 생성하는방법
+		memberService.printMember(members);//서비스클래스의 메서드호출
 	}
 
 }
