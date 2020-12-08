@@ -8,6 +8,8 @@ import java.util.Date;
  *
  */
 public class MemberVO {
+	
+	
 	//멤버변수 선언(클래스 전역변수)
 	private String user_id;
 	private String user_pw;
@@ -66,5 +68,11 @@ public class MemberVO {
 	}
 	public void setReg_date(Date reg_date) {
 		this.reg_date = reg_date;
+	}
+
+	@Override
+	public String toString() {
+		return "디버그 MemberVO [user_id=" + user_id + ", user_pw=" + user_pw + ", user_name=" + user_name + ", email=" + email
+				+ ", point=" + point + ", enabled=" + enabled + ", levels=" + levels + ", reg_date=" + reg_date + "]";
 	}
 }
