@@ -10,11 +10,11 @@ public class MainController {
 		MemberVO memberVO = new MemberVO();
 		memberVO.setName("홍길동");
 		memberVO.setAge(45);
-		memberVO.setPhoneNum("123-4567-8910");
+		memberVO.setPhoneNum("000-0000-0000");
 		MemberVO memberVO2 = new MemberVO();
 		memberVO2.setName("성춘향");
 		memberVO2.setAge(18);
-		memberVO2.setPhoneNum("111-2222-3333");
+		memberVO2.setPhoneNum("111-1111-1111");
 		MemberVO memberVO3 = new MemberVO();
 		memberVO3.setName("각시탈");
 		memberVO3.setAge(28);
