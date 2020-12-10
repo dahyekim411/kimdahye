@@ -20,7 +20,7 @@ public class MainController {
 	public static void main(String[] args) throws IOException {
 		// 실행메서드
 		MemberVO memberVO = new MemberVO();
-		memberVO.setName("홍길동");
+		memberVO.setName("김다혜");
 		memberVO.setAge(45);
 		memberVO.setPhoneNum("000-0000-0000");
 		MemberVO memberVO2 = new MemberVO();
@@ -28,7 +28,7 @@ public class MainController {
 		memberVO2.setAge(18);
 		memberVO2.setPhoneNum("111-1111-1111");
 		MemberVO memberVO3 = new MemberVO();
-		memberVO3.setName("각시탈");
+		memberVO3.setName("아무개");
 		memberVO3.setAge(28);
 		memberVO3.setPhoneNum("222-2222-2222");
 		// 위 각각 3개의 레코드를 1군데 담을 배열 클래스오브젝트를 하나 생성
@@ -62,7 +62,7 @@ public class MainController {
 				.atZone(ZoneId.systemDefault())
 				.toLocalDateTime();
 		System.out.println("Server 시간" + localDateTime);
-		System.out.println("로컬PC 시간" + localDateTime.now());
+		System.out.println("로컬 PC 시간" + localDateTime.now());
 	}
 	
 }
